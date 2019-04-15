@@ -1,0 +1,142 @@
+.step-one {
+	background-color: #fefce4;
+}
+
+.step-content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: inherit;
+	
+	> * {
+		flex-shrink: 0;
+	}
+}
+
+.step-footer {
+	margin-top: auto;
+}
+
+.step-one__heading-block {
+	display: block;
+	background-color: #97c959;
+	height: 18.981481vw;
+	overflow: hidden;
+	img {
+		display: block;
+		background-position: bottom bottom;
+	}
+}
+
+.step-one__photo-block {
+	position: relative;
+	width: 92vw;
+	height: 38vw;
+	margin: 0 auto;
+	overflow: hidden;
+	
+	a {
+		width: 100%;
+		height: 100%;
+		display: block;
+		
+		img {
+			width: 100%;
+			height: 100%;
+			display: block;
+			backface-visibility: hidden;
+			object-fit: cover;
+		}
+	}
+}
+
+.step-one__photo-block .bg-img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	backface-visibility: hidden;
+	object-fit: cover;	
+}
+
+.step-one {
+	&__karaoke-block {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		background-color: #ef4f43;
+		padding-top: 4.166667vw;
+	}
+	&__karaoke-photos {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+		margin-left: 2.638889vw;
+	}
+	.karaoke-micro-big {
+		width: 21.435185vw;
+		margin-right: 4.62963vw;
+	}
+	.karaoke-micro-min {
+		width: 11.25vw;
+	}
+	&__karaoke-heading {
+		display: flex;
+		flex-direction: column;
+		color: #fff;
+		margin-right: 6.018519vw;
+	}
+	&__karaoke-heading h2 {
+		text-transform: uppercase;
+		margin-bottom: 5.555556vw;
+		font-size: 8.333333vw;
+	}
+	&__karaoke-heading p {
+		font-size: 5.5vw;
+		margin: 0;
+	}
+	&-hr {
+		width: 100%;
+		height: 5.092593vw;
+		background-color: #97c959;
+	}
+	&__guess-block {
+		display: flex;
+		flex-direction: column;
+		background-color: #33bfb9;
+		padding-top: 6.481481vw;
+		color: #fff;
+	}
+	&__guess-block h2 {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 7.407407vw;
+		font-size: 8.333333vw;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	&__guess-content {
+		display: flex;
+		flex-direction: row;
+		padding-left: 6.481481vw;
+		padding-right: 5.555556vw;
+	}
+	&__guess-content p {
+		font-size: 5vw;
+		width: 49.074074vw;
+		margin: 0;
+	}
+	&__guess-photo img {
+		width: 47.12963vw;
+	}
+	&__footer-block {
+		display: block;
+		overflow: hidden;
+		height: 28vw;
+		background-color: #97c959;
+	}
+	&__footer-block img {
+		background-size: contain;
+	}
+}

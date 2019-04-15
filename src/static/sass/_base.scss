@@ -1,0 +1,36 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: #fff;
+  min-width: 320px;
+	font-family: 'Intro', sans-serif;
+  font-weight: 400;
+  font-size: 4vw;
+  line-height: 1.2;
+  font-style: normal;
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}

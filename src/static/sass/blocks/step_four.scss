@@ -1,0 +1,42 @@
+.step-four {
+	background-color: #97c959;
+}
+
+.step-four__cover-track {
+	position: absolute;
+	bottom: 37vw;
+	left: 0;
+}
+
+.btn--stop {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -8vw;
+	z-index: 10;
+}
+
+.btn--stop img {
+	width: 19vw;
+}
+
+.step-four__track-text {
+	position: absolute;
+	bottom: -31.4vw;
+	left: 0;
+	padding-top: 12.962963vw;
+	background-color: #515151;
+	width: 90.740741vw;
+	padding-left: 3.703704vw;
+}
+
+.step-four__track-text p {
+	margin: 0;
+	margin-bottom: 2.777778vw;
+	color: #fff;
+	font-weight: 400;
+	font-size: 6vw;
+	span {
+		color: #f04f43;
+	}
+}

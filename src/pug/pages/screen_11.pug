@@ -1,0 +1,107 @@
+doctype html
+html(lang="ru-RU")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(name="theme-color" content="#ff9800")
+		meta(name="theme-color" content="#000000")
+		meta(name="msapplication-navbutton-color" content="#000000")
+		meta(name="msapplication-navbutton-color" content="#ff9800")
+		meta(name="apple-mobile-web-app-capable" content="yes")
+		meta(name="apple-mobile-web-app-status-bar-style" content="black-translucent")
+		meta(name="apple-touch-fullscreen" content="yes")
+		meta(name="format-detection" content="telephone=no")
+		title Московская весна A Capella
+		link(rel="stylesheet" href="static/css/main.css")
+	body
+		header#header.page-header
+			.wrapper
+				.page-header__row
+					a.page-header__logo(href="index.html")
+						img(src="static/img/back.svg", alt="")
+					.page-header__article
+						h1 Угадай мелодию
+		.main-page-wrap
+			.main-page-blocks
+				section.step-eleven.step-content
+					.step-two__container
+						.step-nine__heading-block
+							h2 Кто автор этого 
+								br
+								| произведения?
+						.step-eleven__controls
+							.step-eleven__stop-block
+								a.btn--stop(href="javascript:;")
+									img(src="static/img/stop.svg", alt="")
+							.step-eleven__track-block
+								a(href="javascript:;")
+									img(src="static/img/track-2.png", alt="")
+						.step-two__music-list
+							a.step-two__music-item.btn-js-right(href="javascript:;" class="toggle" data-toggle="modal" data-target="#popup-right")
+								.step-two__note-block
+									img(src="static/img/note.png", alt="")
+								.step-two__music-content
+									span.step-two__music-author К. Бельды
+							a.step-two__music-item.btn-js-wrong(href="javascript:;" class="toggle" data-toggle="modal" data-target="#popup-wrong")
+								.step-two__note-block
+									img(src="static/img/note.png", alt="")
+								.step-two__music-content
+									span.step-two__music-author А. Пугачёва
+							a.step-two__music-item(href="javascript:;")
+								.step-two__note-block
+									img(src="static/img/note.png", alt="")
+								.step-two__music-content
+									span.step-two__music-author ВИА «Песняры»
+							a.step-two__music-item(href="javascript:;")
+								.step-two__note-block
+									img(src="static/img/note.png", alt="")
+								.step-two__music-content
+									span.step-two__music-author Э. Хиль
+							a.step-two__music-item(href="javascript:;")
+								.step-two__note-block
+									img(src="static/img/note.png", alt="")
+								.step-two__music-content
+									span.step-two__music-author К. Бельды
+							a.step-two__music-item(href="javascript:;")
+								.step-two__note-block
+									img(src="static/img/note.png", alt="")
+								.step-two__music-content
+									span.step-two__music-author ВИА «Песняры»
+			footer.main-footer
+				.wrapper
+					.main-footer__container
+						a.btn--map(href="about.html") Карта стендов
+							img(src="static/img/icon-map.svg", alt="")
+						a.btn--info(href="about.html") О проекте
+							img(src="static/img/icon-info.svg", alt="")
+			.popup-block#popup-right
+				.popup-block__overlay
+					.popup-block__popup
+						.inner__content
+							a.popup-block__close(href="javascript:;" data-toggle="dismiss")
+							.popup-block__row
+								.popup-block__header
+									h3 Правильный ответ!
+									p Хотите сыграть 
+										br
+										| ещё раз?
+									a.popup-block__btn(href="javascript:;") Ок
+						img(src="static/img/melody-2.png", alt="")
+			.popup-block#popup-wrong
+				.popup-block__overlay
+					.popup-block__popup
+						.inner__content
+							a.popup-block__close(href="javascript:;" data-toggle="dismiss")
+							.popup-block__row
+								.popup-block__header
+									h3 Неправильно!
+									p Попробовать 
+										br
+										| ещё раз?
+									.popup-block__header-controls
+										a.popup-block__btn-yes(href="javascript:;") Да
+										a.popup-block__btn-back(href="index.html") На главную
+						img(src="static/img/melody-2.png", alt="")
+	script(src="static/js/jquery-3.3.1.min.js")
+	script(src="static/js/main.js")

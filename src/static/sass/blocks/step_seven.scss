@@ -1,0 +1,59 @@
+.step-seven {
+	background-color: #97c959;
+	&__heading {
+		text-transform: uppercase;
+		text-align: center;
+		color: #fff;
+	}
+	&__heading p {
+		font-weight: 400;
+		text-transform: uppercase;
+		font-size: 4vw;
+		margin: 0;
+		margin-top: 2.314815vw;
+		margin-bottom: 2.314815vw;
+	}
+	&__heading h2 {
+		font-size: 8.5vw;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: 6.25vw;
+	}
+	&__task-list {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	&__task-card {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		background-color: #fff;
+		width: 30.37037vw;
+		padding: 5.555556vw 7.407407vw;
+	}
+	&__task-card.active {
+		padding: 0;
+	}
+	&__task-icon {
+		width: 15vw;
+	}
+	&__task-photo {
+		width: 30.37037vw;
+		height: 100%;
+	}
+	&__task-photo img {
+		width: 100%;
+		height: 100%;
+		display: block;
+		backface-visibility: hidden;
+		object-fit: cover;
+	}
+	&__melody {
+		display: block;
+		overflow: hidden;
+		height: 24vw;
+	}
+}

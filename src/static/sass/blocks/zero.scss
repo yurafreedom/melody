@@ -1,0 +1,38 @@
+.zero-block {
+	background-image: url('../img/main-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: #97c959;
+	height: 100vh;
+	&__container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+		padding-top: 16vw;
+	}
+	&__photo-block img {
+		width: 24.305556vw;
+	}
+	&__heading {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	&__heading span {
+		text-transform: uppercase;
+		color: #fff;
+	}
+	&__heading .zero-m {
+		background-color: #f04f44;
+	}
+	&__heading .zero-v {
+		background-color: #43b85c;
+	}
+	&__heading .zero-c {
+		background-color: #33bfb9;
+	}
+}

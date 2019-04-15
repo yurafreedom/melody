@@ -1,0 +1,66 @@
+doctype html
+html(lang="ru-RU")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(name="theme-color" content="#ff9800")
+		meta(name="theme-color" content="#000000")
+		meta(name="msapplication-navbutton-color" content="#000000")
+		meta(name="msapplication-navbutton-color" content="#ff9800")
+		meta(name="apple-mobile-web-app-capable" content="yes")
+		meta(name="apple-mobile-web-app-status-bar-style" content="black-translucent")
+		meta(name="apple-touch-fullscreen" content="yes")
+		meta(name="format-detection" content="telephone=no")
+		title Московская весна A Capella
+		link(rel="stylesheet" href="static/css/main.css")
+	body
+		svg(style="display:none")
+		header#header.page-header
+			.wrapper
+				.page-header__row
+					a.page-header__logo(href="index.html")
+						img(src="static/img/back.svg", alt="")
+					.page-header__article
+						h1 Карта стендов
+		.main-page-wrap
+			.main-page-blocks
+				section.contacts
+					.contacts-block
+						.contacts-block__map
+							img(src="static/img/map.png", alt="")
+							#contacts-map
+						.contacts-block__places
+							.contacts-block__option
+								.contacts-block__photo
+									img(src="static/img/place-1.png", alt="")
+								.contacts-block__address
+									h3
+										span № 7 
+										| Бассейн «Чайка»
+									p Турчанинов переулок, д. 3/1
+							.contacts-block__option
+								.contacts-block__photo
+									img(src="static/img/place-2.png", alt="")
+								.contacts-block__address
+									h3
+										span № 6 
+										| Останкинская телебашня
+									p ул. Академика Королёва, д. 15, корп. 2
+							.contacts-block__option
+								.contacts-block__photo
+									img(src="static/img/place-2.png", alt="")
+								.contacts-block__address
+									h3
+										span № 6 
+										| Останкинская телебашня
+									p ул. Академика Королёва, д. 15, корп. 2
+			footer.main-footer
+				.wrapper
+					.main-footer__container
+						a.btn--map(href="contacts.html") Карта стендов
+							img(src="static/img/icon-map.svg", alt="")
+						a.btn--info(href="about.html") О проекте
+							img(src="static/img/icon-info.svg", alt="")
+	script(src="static/js/jquery-3.3.1.min.js")
+	script(src="static/js/main.js")

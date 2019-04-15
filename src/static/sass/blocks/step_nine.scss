@@ -1,0 +1,25 @@
+.step-nine {
+	background-color: #97c959;
+	&__heading-block {
+		text-transform: uppercase;
+		text-align: center;
+		color: #fff;
+	}
+	&__heading-block h2 {
+		margin-top: 3.240741vw;
+		margin-bottom: 6.481481vw;
+	}
+	&__stop-block .btn--stop {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		position: relative;
+		bottom: 0;
+		margin-bottom: 8.333333vw;
+	}
+	&__track-block {
+		width: 90vw;
+		margin: 0 auto;
+		margin-bottom: 12.407407vw;
+	}
+}

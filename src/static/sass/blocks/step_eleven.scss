@@ -1,0 +1,28 @@
+.step-eleven {
+	background-color: #97c959;
+	.step-nine__heading-block h2 {
+		margin-top: 3vw;
+		margin-bottom: 3vw;
+	}
+	&__controls {
+		position: relative;
+		margin-bottom: 4.62963vw;
+	}
+	&__track-block {
+		width: 90vw;
+		margin: 0 auto;
+	}
+	&__stop-block {
+		position: absolute;
+		top: 18vw;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 36.388889vw;
+		.btn--stop {
+			bottom: 0;
+		}
+	}
+	.step-two__music-content {
+		margin-top: 8.333333vw;
+	}
+}

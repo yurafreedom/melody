@@ -1,0 +1,60 @@
+.step-two {
+	background-color: #97c959;
+	&__heading-block span {
+		display: block;
+		text-align: center;
+		font-size: 4vw;
+		font-weight: 400;
+		color: #fff;
+		padding-top: 4vw;
+		padding-bottom: 4vw;
+		letter-spacing: 0.025em;
+		text-transform: uppercase;
+	}
+	&__note-block {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 14.814815vw;
+		background-color: #fff;
+		padding: 2.314815vw;
+		border-radius: 50%;
+	}
+	&__note-block img {
+		display: block;
+		width: 8.194444vw;
+		height: 10.740741vw;
+	}
+	&__music-list {
+		margin-left: 2.314815vw;
+	}
+	&__music-item {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 4vw;
+	}
+	&__music-content {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-left: 6vw;
+		color: #fff;
+	}
+	&__music-name {
+		font-size: 5vw;
+		background-color: #ef4f43;
+		padding: 1.388889vw 4.62963vw 1.388889vw 12vw;
+		border-top-left-radius: 50px;
+	}
+	&__music-author {
+		display: inline-block;
+		font-size: 4vw;
+		background-color: #33bfb9;
+		padding: 1vw 4.62963vw 1vw 12vw;
+		border-bottom-left-radius: 50px;
+	}
+}

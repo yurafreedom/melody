@@ -1,0 +1,36 @@
+.about {
+	background-color: #272c40;
+	height: 100%;
+}
+
+.about-block {
+	position: relative;
+	width: 100%;
+	flex-shrink: 0;
+	padding-top: 5.555556vw;
+	min-height: calc(100vh - 16.5vw);
+}
+
+.about {
+	width: 100%;
+	flex-shrink: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.about-block p {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 3.2140741vw;
+	font-weight: 400;
+	font-size: 4vw;
+	line-height: 1.2;
+	color: #fff;
+	text-indent: 1em;
+}

@@ -1,0 +1,56 @@
+doctype html
+html(lang="ru-RU")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(name="theme-color" content="#ff9800")
+		meta(name="theme-color" content="#000000")
+		meta(name="msapplication-navbutton-color" content="#000000")
+		meta(name="msapplication-navbutton-color" content="#ff9800")
+		meta(name="apple-mobile-web-app-capable" content="yes")
+		meta(name="apple-mobile-web-app-status-bar-style" content="black-translucent")
+		meta(name="apple-touch-fullscreen" content="yes")
+		meta(name="format-detection" content="telephone=no")
+		title Московская весна A Capella
+		link(rel="stylesheet" href="static/css/main.css")
+	body
+		header#header.page-header
+			.wrapper
+				.page-header__row
+					a.page-header__logo(href="index.html")
+						img(src="static/img/logo.png", alt="")
+					.page-header__article
+						h1 А КАПЕЛЛА 2019
+		.main-page-wrap
+			.main-page-blocks
+				section.step-one.step-content
+					.step-one__heading-block
+						img(src="static/img/melody-2.png", alt="")
+					.step-one__karaoke-block
+						.step-one__karaoke-photos
+							img.karaoke-micro-big(src="static/img/microphone-big.png", alt="")
+							img.karaoke-micro-min(src="static/img/microphone-min.png", alt="")
+						.step-one__karaoke-heading
+							h2 Караоке
+							p Выберите любимую
+								br
+								| песню и спойте её
+					.step-one-hr
+					.step-one__guess-block
+						h2 Угадать мелодию
+						.step-one__guess-content
+							p Угадайте название песни, прослушав её отрывок
+							.step-one__guess-photo
+								img(src="static/img/melody-1.png", alt="")
+					.step-one__footer-block
+						img(src="static/img/melody-2.png", alt="")
+			footer.main-footer
+				.wrapper
+					.main-footer__container
+						a.btn--map(href="about.html") Карта стендов
+							img(src="static/img/icon-map.svg", alt="")
+						a.btn--info(href="about.html") О проекте
+							img(src="static/img/icon-info.svg", alt="")
+	script(src="static/js/jquery-3.3.1.min.js")
+	script(src="static/js/main.js")

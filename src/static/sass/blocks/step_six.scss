@@ -1,0 +1,38 @@
+.step-six {
+	background-color: #97c959;
+	&__track-continue {
+		position: absolute;
+		bottom: -18.518519vw;
+		left: 0;
+		background-color: #515151;
+		width: 90.740741vw;
+		color: #fff;
+		text-align: center;
+		h2 {
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 6vw;
+			margin-top: 6.481481vw;
+			margin-bottom: 3.703704vw;
+		}
+		p {
+			font-weight: 400;
+			font-size: 4vw;
+			margin: 0;
+			margin-bottom: 3.703704vw;
+		}
+		a {
+			display: block;
+			width: 26.666667vw;
+			margin: 0 auto;
+			margin-bottom: 4.62963vw;
+		}
+	}
+	&__btn-control {
+		position: absolute;
+		bottom: -30.5vw;
+		left: 0;
+		display: flex;
+		flex-direction: row;
+	}
+}
