@@ -41,20 +41,20 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		margin-left: 6vw;
 		color: #fff;
+		margin-left: 2vw;
 	}
 	&__music-name {
 		font-size: 5vw;
 		background-color: #ef4f43;
-		padding: 1.388889vw 4.62963vw 1.388889vw 12vw;
+		padding: 1.388889vw 4.62963vw 1.388889vw 18vw;
 		border-top-left-radius: 50px;
 	}
 	&__music-author {
 		display: inline-block;
 		font-size: 4vw;
 		background-color: #33bfb9;
-		padding: 1vw 4.62963vw 1vw 12vw;
+		padding: 1vw 4.62963vw 1vw 18vw;
 		border-bottom-left-radius: 50px;
 	}
 }

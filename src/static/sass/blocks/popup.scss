@@ -161,7 +161,13 @@
 		position: absolute;
 		left: 50%;
 		top: 50%;
-		margin-top: -40%;
-		margin-left: -40%;
+		margin-top: -60%;
+		margin-left: -45%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	.popup-block__popup {
+		margin-top: 20%;
 	}
 }

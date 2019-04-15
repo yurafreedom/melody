@@ -1,7 +1,7 @@
 .contacts-block {
 	&__map {
 		width: 100vw;
-		height: 81.851852vw;
+		height: 75.03vw;
 	}
 	&__map img {
 		width: 100%;
@@ -31,26 +31,27 @@
 	&__photo {
 		position: absolute;
 		top: 0;
-		left: -2.777778vw;
+		left: 0;
 		width: 16.574074vw;
 	}
 	&__address {
 		color: #fff;
+		margin-left: 4vw;
 	}
 	&__address h3 {
-		padding-left: 18vw;
 		background-color: #33bfb9;
-		font-size: 5vw;
+		font-size: 4vw;
 		font-weight: 700;
-		padding: 2.314815vw;
+		padding: 2vw 2vw 2vw 18vw;
 		border-top-left-radius: 50px;
+		text-align: right;
 	}
 	&__address p {
-		padding-left: 15vw;
-		font-size: 4vw;
+		font-size: 3vw;
 		font-weight: 350;
 		background-color: #ef4f43;
 		margin: 0;
+		padding: 2vw 2vw 2vw 18vw;
 		margin-top: 0.555556vw;
 		border-bottom-left-radius: 50px;
 	}
