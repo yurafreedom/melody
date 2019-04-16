@@ -8,6 +8,8 @@
 		width: 90.740741vw;
 		color: #fff;
 		text-align: center;
+		transform: scale(0.3);
+		opacity: 0;
 		h2 {
 			text-transform: uppercase;
 			font-weight: 700;
@@ -35,4 +37,9 @@
 		display: flex;
 		flex-direction: row;
 	}
+}
+
+.step-six__track-continue.active {
+	opacity: 1;
+	transform: scale(1);
 }

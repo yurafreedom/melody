@@ -87,10 +87,11 @@
 		color: #fff;
 		margin-right: 6.018519vw;
 	}
-	&__karaoke-heading h2 {
+	&__karaoke-heading a {
 		text-transform: uppercase;
 		margin-bottom: 5.555556vw;
 		font-size: 8.333333vw;
+		color: #fff;
 	}
 	&__karaoke-heading p {
 		font-size: 5.5vw;
@@ -108,13 +109,14 @@
 		padding-top: 6.481481vw;
 		color: #fff;
 	}
-	&__guess-block h2 {
+	&__guess-block a {
 		display: block;
 		margin: 0 auto;
 		margin-bottom: 7.407407vw;
 		font-size: 8.333333vw;
 		font-weight: 700;
 		text-transform: uppercase;
+		color: #fff;
 	}
 	&__guess-content {
 		display: flex;

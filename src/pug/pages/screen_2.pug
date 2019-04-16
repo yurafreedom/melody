@@ -29,13 +29,13 @@ html(lang="ru-RU")
 						.step-two__heading-block
 							span Выберите песню из списка и спойте её 
 						.step-two__music-list
-							a.step-two__music-item(href="javascript:;")
+							a.step-two__music-item.btn-js-right(href="javascript:;" class="toggle" data-toggle="modal" data-target="#popup-right")
 								.step-two__note-block
 									img(src="static/img/note.png", alt="")
 								.step-two__music-content
 									span.step-two__music-name Этот мир придуман не нами
 									span.step-two__music-author А. Пугачёва
-							a.step-two__music-item(href="javascript:;")
+							a.step-two__music-item.btn-js-wrong(href="javascript:;" class="toggle" data-toggle="modal" data-target="#popup-wrong")
 								.step-two__note-block
 									img(src="static/img/note.png", alt="")
 								.step-two__music-content
@@ -74,9 +74,35 @@ html(lang="ru-RU")
 			footer.main-footer
 				.wrapper
 					.main-footer__container
-						a.btn--map(href="about.html") Карта стендов
-							img(src="static/img/icon-map.svg", alt="")
 						a.btn--info(href="about.html") О проекте
 							img(src="static/img/icon-info.svg", alt="")
+			.popup-block#popup-right
+				.popup-block__overlay
+					.popup-block__popup
+						.inner__content
+							a.popup-block__close(href="javascript:;" data-toggle="dismiss")
+							.popup-block__row
+								.popup-block__header
+									h3 Правильный ответ!
+									p Хотите сыграть 
+										br
+										| ещё раз?
+									a.popup-block__btn(href="javascript:;") Ок
+						img(src="static/img/melody-2.png", alt="")
+			.popup-block#popup-wrong
+				.popup-block__overlay
+					.popup-block__popup
+						.inner__content
+							a.popup-block__close(href="javascript:;" data-toggle="dismiss")
+							.popup-block__row
+								.popup-block__header
+									h3 Неправильно!
+									p Попробовать 
+										br
+										| ещё раз?
+									.popup-block__header-controls
+										a.popup-block__btn-yes(href="javascript:;") Да
+										a.popup-block__btn-back(href="index.html") На главную
+						img(src="static/img/melody-2.png", alt="")
 	script(src="static/js/jquery-3.3.1.min.js")
 	script(src="static/js/main.js")

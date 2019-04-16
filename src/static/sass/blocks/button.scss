@@ -11,50 +11,30 @@
 	transition: all .2s ease-in-out;
 }
 
-.btn--map, .btn--info {
+.btn--info {
 	position: relative;
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	width: 100vw;
 	height: 11.944444vw;
 	padding-left: 0;
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #fff;
 	transition: all .3s ease-in-out;
-	
+	background-color: #ef4f43;
 	
 	img {
 		margin-right: 4vw;
+		left: 13.888889vw;
+		width: 7.037037vw;
 	}
 	
 	&:hover {
 		color: #fff;
 	}
-}
-
-.btn--map {
-	background-color: #33bfb9;
-	padding-left: 9.259259vw;
-}
-
-.btn--map img {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	left: 3.472222vw;
-	width: 7.407407vw;
-}
-
-.btn--info {
-	background-color: #ef4f43;
-}
-
-.btn--info img {
-	left: 13.888889vw;
-	width: 7.037037vw;
 }
 
 .btn--exit, .btn--repeat {

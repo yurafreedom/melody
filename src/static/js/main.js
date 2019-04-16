@@ -84,4 +84,10 @@ $('[data-toggle="choice-tab"]').click(function(e) {
  $('.btn-js-right').toggleClass('active');
 });
 
-$('.step-three__choice-block').css('height', $('.step-three__choice-block').parent().outerHeight() - $('.step-one__heading-block').outerHeight());
+
+$(document).ready(function() {
+  $('.step-six__track-continue').addClass('active');
+});
+
+
+
