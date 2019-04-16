@@ -1,8 +1,10 @@
 .main-page-wrap {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	height: 100vh;
 	padding-top: 16.89vw;
+	padding-bottom: 11.944444vw;
+	overflow-y: auto;
 }
 
 .main-page-blocks {
@@ -10,7 +12,9 @@
 	display: flex;
 	flex-direction: column;
 	flex-shrink: 0;
-	min-height: calc(100vh - 11.944444vw - 16.89vw);
+	min-height: 100%;
+	
+	
 }
 
 .page-header {

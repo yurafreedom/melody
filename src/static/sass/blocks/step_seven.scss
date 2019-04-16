@@ -1,5 +1,10 @@
 .step-seven {
 	background-color: #97c959;
+	background-repeat: no-repeat;
+	background-image: url("../img/melody-2.png");
+	background-size: 88% auto;
+	background-position: bottom center;
+	padding-bottom: 10vw;
 	&__heading {
 		text-transform: uppercase;
 		text-align: center;

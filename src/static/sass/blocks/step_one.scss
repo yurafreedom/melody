@@ -6,7 +6,7 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	min-height: calc(100vh + 30vw);
+	min-height: calc(100vh - 11.944444vw - 16.89vw);
 	
 	> * {
 		flex-shrink: 0;

@@ -8,19 +8,24 @@
 	left: 0;
 	&::before {
 		content: '';
-		position: relative;
+		position: absolute;
 		display: block;
-		top: 67vw;
+//		top: 67vw;
+		top: 50%;
+		margin-top: -25.5vw;
 		left: 0;
 		width: 90vw;
-		height: 100vw;
+		height: 51vw;
 		background-image: url('../img/shadow.png');
-		background-size: cover;
+		background-size: 100vw auto;
 		background-repeat: no-repeat;
+		background-position: center center;
 	}
 	img {
 		position: relative;
 		z-index: 20;
+		width: 100%;
+		height: auto;
 	}
 }
 
