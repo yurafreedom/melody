@@ -6,6 +6,22 @@
 	position: absolute;
 	bottom: 17.222222vw;
 	left: 0;
+	&::before {
+		content: '';
+		position: relative;
+		display: block;
+		top: 67vw;
+		left: 0;
+		width: 90vw;
+		height: 100vw;
+		background-image: url('../img/shadow.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	img {
+		position: relative;
+		z-index: 20;
+	}
 }
 
 .btn--stop {
